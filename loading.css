@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkslategrey;
+}
+
+#loader{
+    height: 250px;
+    width: 250px;
+}
+
+circle{
+    fill: none;
+    stroke-width: 10px;
+}
+
+#small{
+    stroke: pink;
+    stroke-dasharray: 50;
+}
+
+#med{
+    stroke: paleturquoise;
+    stroke-dasharray: 150;
+}
+
+#large{
+    stroke: palevioletred;
+    stroke-dasharray: 200;
+}
+
+#huge{
+    stroke: palegoldenrod;
+    stroke-dasharray: 200;
+}
