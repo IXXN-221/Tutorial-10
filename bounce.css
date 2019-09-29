@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+    position: relative;
+    top: 0;
+    font-size: 60px;
+}
